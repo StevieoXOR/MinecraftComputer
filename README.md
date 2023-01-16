@@ -8,3 +8,12 @@ For example:
 
 Note that multiplication and division are possible when using only bit shifts, addition, comparison to value 0, and memory. This is slow, but it works.
 https://www.cise.ufl.edu/~mssz/CompOrg/CDA-arith.html
+
+
+This is my most recent MineCraft build for the redstone computer. The computer needs slime blocks in order to work correctly, so extremely old versions of MineCraft may not work correctly. The intended version is MineCraft 1.19
+
+The zip include 16 region files (.mca) which contain information about each chunk in the world.
+The zipped files should be placed inside (and should overwrite, meaning you should delete the original region files from your new world's creation) the "region" folder of a new MineCraft save, where the world created is version 1.19.
+You will need to extract the.zip file to your new MineCraft save's "AppData>Roaming>.minecraft>NewWorld[orInsertYourWorldName]>region".
+
+Entities shouldn't matter as the MineCraft redstone computer doesn't depend on active mob entities. That's why I didn't include those files.
